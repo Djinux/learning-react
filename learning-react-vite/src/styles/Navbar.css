@@ -1,0 +1,43 @@
+@import url('https://fonts.google.com/specimen/Public+Sans');
+* {
+    font-family: 'Public Sans', serif;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link-wrapper {
+    display: flex;
+    gap: 2rem;
+    color: hsl(233, 8%, 62%);
+}
+
+.nav-bar {
+    display: flex; 
+    gap: 5rem;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.btn-request-invite {
+    padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+    border-radius: 1.5rem;
+    border: 0;
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    color:hsl(0, 0%, 100%);
+
+    
+}
+/* 
+    - Dark Blue: hsl(233, 26%, 24%)
+    - Lime Green: hsl(136, 65%, 51%)
+    - Bright Cyan: hsl(192, 70%, 51%)
+
+    - Grayish Blue: hsl(233, 8%, 62%)
+    - Light Grayish Blue: hsl(220, 16%, 96%)
+    - Very Light Gray: hsl(0, 0%, 98%)
+    - White: hsl(0, 0%, 100%)
+*/
