@@ -1,6 +1,7 @@
 import '../styles/Navbar.css'
 import phoneImage from '../assets/image-mockups.png'
 import '../styles/Hero.css'
+
 export default function Hero () {
     return (
         <>

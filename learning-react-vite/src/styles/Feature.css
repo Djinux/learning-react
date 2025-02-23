@@ -1,0 +1,21 @@
+* {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    color: hsl(233, 8%, 62%);
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 22%;
+}
+.feature > h3 {
+    font-size: 1.2rem;
+    color:  hsl(233, 26%, 24%);
+}
+.feature > img {
+    width: 100px;
+}

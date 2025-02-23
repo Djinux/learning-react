@@ -1,0 +1,36 @@
+* {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    color: hsl(233, 8%, 62%);
+}
+.article {
+    background-color: white;
+}
+.article > img {
+    width: 300px;
+    height: auto;
+    border-radius: 0.2rem;
+}
+.article-text {
+    width: 15.5rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.article-author {
+    font-size: 0.9rem;
+    text-wrap: wrap;
+}
+.article-link {
+    text-decoration: none;
+    color: hsl(233, 26%, 24%);
+    text-wrap: wrap;
+}
+.article-link:hover {
+    color: hsl(192, 70%, 51%);
+}
+.article-text > p {
+    text-wrap: wrap;
+}

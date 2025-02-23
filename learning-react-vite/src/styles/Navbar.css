@@ -1,6 +1,9 @@
-@import url('https://fonts.google.com/specimen/Public+Sans');
 * {
-    font-family: 'Public Sans', serif;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    color: hsl(233, 8%, 62%);
 }
 
 .nav-bar {

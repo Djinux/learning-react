@@ -1,0 +1,21 @@
+* {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    color: hsl(233, 8%, 62%);
+}
+.footer-d1 {
+    
+
+}
+.footer-social-network {
+    display: flex;
+    gap: 1rem;
+    padding-top: 1.2rem;    
+    transition: transform 0.3s ease;
+}
+.footer-social-network > img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
