@@ -7,14 +7,22 @@
 }
 .article {
     background-color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
 }
+.feature {
+    container-type: inline-size;
+}
+@container(max-width: 200px) {
+    .feature > img {
+        width: 40px;
+    }
+} 
 .article > img {
-    width: 300px;
-    height: auto;
+    max-width: 100%;
     border-radius: 0.2rem;
 }
 .article-text {
-    width: 15.5rem;
     display: flex;
     flex-direction: column;
     margin: auto;
