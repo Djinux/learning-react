@@ -8,7 +8,7 @@ _All resources for this project, including the design, were taken as a challenge
 
 Here is a screenshot of the project:  
 
-![Easybank](./screenshots/easybank_1.png)  
+![Easybank](./screenshots/easybank_screenshot.png)  
  
 ## Installation
 For installation and setup instructions, check the [internal README](./learning-react-vite/README.md).  
