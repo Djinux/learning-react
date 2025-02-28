@@ -15,11 +15,11 @@ export default function Footer () {
                     <div className="footer-logo-social">
                     <img className="footer-logo" src={logoImage} alt="Easybank logo image" />
                     <div className="footer-social-network">
-                        <img className="face" src={facebookIcon} alt="Facebook icon" />
-                        <img src={youtubeIcon} alt="Youtube icon" />
-                        <img src={twitterIcon} alt="Twitter icon" />
-                        <img src={pinterestIcon} alt="Pinterest icon" />
-                        <img src={instagramIcon} alt="Instagram icon" />
+                        <img className="social-icon" src={facebookIcon} alt="Facebook icon" />
+                        <img className="social-icon" src={youtubeIcon} alt="Youtube icon" />
+                        <img className="social-icon" src={twitterIcon} alt="Twitter icon" />
+                        <img className="social-icon" src={pinterestIcon} alt="Pinterest icon" />
+                        <img className="social-icon" src={instagramIcon} alt="Instagram icon" />
                     </div>
                 </div>
                 <div className="footer-nav">

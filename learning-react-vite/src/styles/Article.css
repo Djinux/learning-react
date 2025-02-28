@@ -42,3 +42,8 @@
 .article-text > p {
     text-wrap: wrap;
 }
+/* @media (max-width: 600px) {
+    .article {
+        flex-shrink: 0;
+    }
+} */

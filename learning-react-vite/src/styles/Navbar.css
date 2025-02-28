@@ -17,10 +17,14 @@
     top: 0rem;
     z-index: 1;
     background-color: white;
+    box-shadow: 0.05rem 0.05rem hsl(210, 7%, 94%);
+
+    transition: transform 0.4s ease-in-out;
 }
 
 .nav-logo:hover {
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 .nav-link {
@@ -48,10 +52,18 @@
     background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
     color:hsl(0, 0%, 100%); 
     text-wrap: nowrap;
+
+    transition: transform 0.3s ease;
 }
 
 .btn-request-invite:hover {
     cursor: pointer;
+    transform: scale(1.2);
+}
+@media(max-width: 600px) {
+    .nav-logo {
+        width: 50px;
+    }
 }
 /* 
     - Dark Blue: hsl(233, 26%, 24%)
